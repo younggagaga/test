@@ -5,7 +5,7 @@ import xmltodict
 
 
 url = 'http://apis.data.go.kr/1611000/nsdi/LandUseService/attr/getLandUseAttr'
-queryParams = '?' + urlencode({ quote_plus('ServiceKey') : 'QfyMs6H73XPcY4lsKRSG9gMzBQhcvxWIoulRYv4jAVKUDN1ut6vfZS63Efbcvklw/uhNoaT0jKKEcQmrWLVWqQ==',
+queryParams = '?' + urlencode({ quote_plus('ServiceKey') : '서비스키',
                                 quote_plus('pnu') : '2623010200103620003',
                                 })
 
